@@ -1,0 +1,212 @@
+[
+    {
+        "question": "Currently Working at Company",
+        "type": "Objective",
+        "points": 5,
+        "options": [
+            {
+                "option": "Yes",
+                "discount": 100
+            },
+            {
+                "option": "No",
+                "discount": 50
+            }
+        ]
+    }, 
+    {
+        "question": "No. of Current/Previously Held Relevant Leadership Positions",
+        "type": "Objective",
+        "points": 12.5,
+        "rangeMax": 10
+    },
+    {
+        "question": "Average No. of Years Spent per Company",
+        "type": "Objective",
+        "points": 10,
+        "rangeMax": 10
+    },
+    {
+        "question": "Superior Reference Rating",
+        "type": "",
+        "points": 0,
+        "options": [
+            {
+                "option": "",
+                "discount": 0
+            },
+            {
+                "option": "",
+                "discount": 0
+            },
+            {
+                "option": "",
+                "discount": 0
+            },
+            {
+                "option": "",
+                "discount": 0
+            }
+        ]
+    },
+    {
+        "question": "Peer Reference Rating",
+        "type": "",
+        "points": 0,
+        "options": [
+            {
+                "option": "",
+                "discount": 0
+            },
+            {
+                "option": "",
+                "discount": 0
+            },
+            {
+                "option": "",
+                "discount": 0
+            },
+            {
+                "option": "",
+                "discount": 0
+            }
+        ]
+    },
+    {
+        "question": "Background Check",
+        "type": "",
+        "points": 0,
+        "options": [
+            {
+                "option": "",
+                "discount": 0
+            },
+            {
+                "option": "",
+                "discount": 0
+            }
+        ]
+    },
+    {
+        "question": "Fundamental Personality Type",
+        "type": "",
+        "points": 0,
+        "options": [
+            {
+                "option": "",
+                "discount": 0
+            },
+            {
+                "option": "",
+                "discount": 0
+            },
+            {
+                "option": "",
+                "discount": 0
+            },
+            {
+                "option": "",
+                "discount": 0
+            },
+            {
+                "option": "",
+                "discount": 0
+            }
+        ]
+    },
+    {
+        "question": "Composure Rating",
+        "type": "",
+        "points": 0,
+        "options": [
+            {
+                "option": "",
+                "discount": 0
+            },
+            {
+                "option": "",
+                "discount": 0
+            },
+            {
+                "option": "",
+                "discount": 0
+            }
+        ]
+    },
+    {
+        "question": "Honesty Rating",
+        "type": "",
+        "points": 0,
+        "options": [
+            {
+                "option": "",
+                "discount": 0
+            },
+            {
+                "option": "",
+                "discount": 0
+            },
+            {
+                "option": "",
+                "discount": 0
+            }
+        ]
+    },
+    {
+        "question": "Confidence Rating",
+        "type": "",
+        "points": 0,
+        "options": [
+            {
+                "option": "",
+                "discount": 0
+            },
+            {
+                "option": "",
+                "discount": 0
+            },
+            {
+                "option": "",
+                "discount": 0
+            }
+        ]
+    },
+    {
+        "question": "Communication Skills Rating",
+        "type": "",
+        "points": 0,
+        "options": [
+            {
+                "option": "",
+                "discount": 0
+            },
+            {
+                "option": "",
+                "discount": 0
+            },
+            {
+                "option": "",
+                "discount": 0
+            }
+        ]
+    },
+    {
+        "question": "Curiosity Rating",
+        "type": "",
+        "points": 0,
+        "options": [
+            {
+                "option": "",
+                "discount": 0
+            },
+            {
+                "option": "",
+                "discount": 0
+            },
+            {
+                "option": "",
+                "discount": 0
+            }
+        ]
+    }
+]
