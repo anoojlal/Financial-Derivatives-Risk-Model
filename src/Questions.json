@@ -28,183 +28,183 @@
     },
     {
         "question": "Superior Reference Rating",
-        "type": "",
-        "points": 0,
+        "type": "Reference",
+        "points": 15,
         "options": [
             {
-                "option": "",
-                "discount": 0
+                "option": "Outstanding",
+                "discount": 100
             },
             {
-                "option": "",
-                "discount": 0
+                "option": "Good/Average",
+                "discount": 50
             },
             {
-                "option": "",
-                "discount": 0
+                "option": "Poor",
+                "discount": 25
             },
             {
-                "option": "",
+                "option": "N/A",
                 "discount": 0
             }
         ]
     },
     {
         "question": "Peer Reference Rating",
-        "type": "",
-        "points": 0,
+        "type": "Reference",
+        "points": 15,
         "options": [
             {
-                "option": "",
-                "discount": 0
+                "option": "Outstanding",
+                "discount": 100
+            },
+            {	
+                "option": "Good/Average",
+                "discount": 50
             },
             {
-                "option": "",
-                "discount": 0
+                "option": "Poor",
+                "discount": 25
             },
             {
-                "option": "",
-                "discount": 0
-            },
-            {
-                "option": "",
+                "option": "N/A",
                 "discount": 0
             }
         ]
     },
     {
         "question": "Background Check",
-        "type": "",
-        "points": 0,
+        "type": "Reference",
+        "points": 10,
         "options": [
             {
-                "option": "",
-                "discount": 0
+                "option": "Background is problem free",
+                "discount": 100
             },
             {
-                "option": "",
+                "option": "Background has some sort of problems",
                 "discount": 0
             }
         ]
     },
     {
         "question": "Fundamental Personality Type",
-        "type": "",
-        "points": 0,
+        "type": "Rating",
+        "points": 5,
         "options": [
             {
-                "option": "",
-                "discount": 0
+                "option": "Sanguine - Enthusiastic, active, and social. Tend to be more extroverted and enjoy being part of a crowd; they find that being social, outgoing, and charismatic is easy to accomplish. Have a hard time doing nothing and engage in more risk seeking behavior.",
+                "discount": 75
             },
             {
-                "option": "",
-                "discount": 0
+                "option": "Choleric - Tend to be more extroverted. Independent, decisive, and goal oriented. Enjoy being in charge of a group since they have many leadership qualities as well as ambition. Have a logical and fact-based outlook on the world.",
+                "discount": 100
             },
             {
-                "option": "",
-                "discount": 0
+                "option": "Melancholic - Tend to be analytical, detail oriented, and are deep thinkers and feelers. Are introverted and try to avoid being singled out in a crowd.Thoughtful, reserved, and often anxious. Often strive for perfection within themselves and their surroundings. Tidy and detail oriented behavior.",
+                "discount": 25
             },
             {
-                "option": "",
-                "discount": 0
+                "option": "Phlegmatic - Tends to be relaxed, peaceful, quiet, and easy-going. Sympathetic and care about others, yet try to hide their emotions. Good at generalizing ideas or problems to the world and making compromises.",
+                "discount": 50
             },
             {
-                "option": "",
-                "discount": 0
+                "option": "Other",
+                "discount": 10
             }
         ]
     },
     {
         "question": "Composure Rating",
-        "type": "",
-        "points": 0,
+        "type": "Rating",
+        "points": 10,
         "options": [
             {
-                "option": "",
-                "discount": 0
+                "option": "3 - Performs well under stress ",
+                "discount": 100
             },
             {
-                "option": "",
-                "discount": 0
+                "option": "2 - Slight decline in performance under stress ",
+                "discount": 50
             },
             {
-                "option": "",
+                "option": "1 - Cracks under pressure ",
                 "discount": 0
             }
         ]
     },
     {
         "question": "Honesty Rating",
-        "type": "",
-        "points": 0,
+        "type": "Rating",
+        "points": 7.5,
         "options": [
             {
-                "option": "",
-                "discount": 0
+                "option": "3 - Completely honest ",
+                "discount": 100
             },
             {
-                "option": "",
-                "discount": 0
+                "option": "2 - Somewhat lied/suspicion of dishonesty ",
+                "discount": 50
             },
             {
-                "option": "",
+                "option": "1- Outright dishonesty ",
                 "discount": 0
             }
         ]
     },
     {
         "question": "Confidence Rating",
-        "type": "",
-        "points": 0,
+        "type": "Rating ",
+        "points": 5,
         "options": [
             {
-                "option": "",
-                "discount": 0
+                "option": "3 - Certain of their qualification and capability ",
+                "discount": 100
             },
             {
-                "option": "",
-                "discount": 0
+                "option": "2 - Somewhat uncertain of ability to meet expectations ",
+                "discount": 50
             },
             {
-                "option": "",
+                "option": "1 - Expressed blatant lack of confidence ",
                 "discount": 0
             }
         ]
     },
     {
         "question": "Communication Skills Rating",
-        "type": "",
-        "points": 0,
+        "type": "Rating",
+        "points": 2.5,
         "options": [
             {
-                "option": "",
-                "discount": 0
+                "option": "3 - Effective communicator (volume, eye contact, eloquence, etc.) ",
+                "discount": 100
             },
             {
-                "option": "",
-                "discount": 0
+                "option": "2 - Communication skills could use improvement ",
+                "discount": 50
             },
             {
-                "option": "",
+                "option": "1 - Incapable of communicating effectively ",
                 "discount": 0
             }
         ]
     },
     {
         "question": "Curiosity Rating",
-        "type": "",
-        "points": 0,
+        "type": "Rating",
+        "points": 2.5,
         "options": [
             {
-                "option": "",
-                "discount": 0
+                "option": "3 - Inquisitive about company, position, goals, etc. ",
+                "discount": 100
             },
             {
-                "option": "",
-                "discount": 0
+                "option": "2 - Somewhat curious, may have asked question irrelevant to leadership position ",
+                "discount": 50
             },
             {
-                "option": "",
+                "option": "1 - Expressed no curiosity ",
                 "discount": 0
             }
         ]
