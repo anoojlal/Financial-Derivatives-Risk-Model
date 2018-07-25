@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Alert, Button, ButtonGroup, ButtonToolbar, ToggleButtonGroup, ToggleButton } from 'react-bootstrap';
+import { Button, ButtonGroup, ButtonToolbar } from 'react-bootstrap';
 import Question from './Question';
-import MCResponse from './MCResponse';
-import LinearScaleResponse from './LinearScaleResponse';
 
 class App extends Component {
   render() {
@@ -12,26 +10,20 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title" id="welcome">Welcome to React</h1>
+          <h1 className="App-title" id="welcome">Risk Model</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
 
-        <Question question="What's your favorite food?"/>
-        <MCResponse />
-        
-        <br />
+        <Question question="What's your favorite food?" responseType="mc" options={['Yes', 'No']}/>
+        <Question question="What's your favorite color?" responseType="linearScale" rangeMax={10} />
 
-        <Question question="What's your favorite color?"/>
-        <LinearScaleResponse />
-
-        <ButtonGroup justified>
-          <Button href="#">Left</Button>
-          <Button href="#">Middle</Button>
-          <Button href="#">Right</Button>
-        </ButtonGroup>
-
+        <ButtonToolbar>
+          <ButtonGroup>
+            <Button>1</Button>
+            <Button>2</Button>
+            <Button>3</Button>
+            <Button>4</Button>
+          </ButtonGroup>
+        </ButtonToolbar>
       </div>
     );
   }

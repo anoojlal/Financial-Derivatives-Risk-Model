@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
+import { FormGroup, FormControl } from 'react-bootstrap';
 
 class MCResponse extends Component {
     render() {
         return (
-        <div>
-            <h1>This is an MC Response!</h1>
-        </div>
+            <div>
+                <FormGroup controlId="formControlsSelect">
+                    <FormControl componentClass="select">
+                        {this.props.options.map((option) => 
+                            <option value={option}>{option}</option>
+                        )}
+                    </FormControl>
+                </FormGroup>
+            </div>
         );
     }
 }
