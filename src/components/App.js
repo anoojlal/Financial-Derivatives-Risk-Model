@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import logo from './../logo.svg';
-import './../App.css';
-import { Button, ButtonGroup, ButtonToolbar } from 'react-bootstrap';
+import './../styles/App.css';
+import { Jumbotron, Button, Grid, Row, Col } from 'react-bootstrap';
 import Question from './Question';
 import Data from './../Questions.json';
-
 
 class App extends Component {
   constructor(props) {
@@ -39,27 +37,62 @@ class App extends Component {
     const newValue = this.state.responses[questionId].points * 
     (this.state.responses[questionId].selectedResponse.discount / 100);
 
+    const delta = newValue - oldValue;
+
     this.setState({
-      score: this.state.score - oldValue + newValue
+      score: this.state.score + delta
     });
   }
 
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title" id="welcome">Risk Model</h1>
-        </header>
+        <Jumbotron>
+          <h1>Hello, world!</h1>
+          <p>
+            This is a simple hero unit, a simple jumbotron-style component for calling
+            extra attention to featured content or information.
+          </p>
+          <p>
+            <Button bsStyle="primary">Learn more</Button>
+          </p>
+        </Jumbotron>
 
-        {this.state.responses.map((question) => 
+        <Grid>
+          <Row className="show-grid">
+            <Col md={1}>
+            </Col>
+            <Col md={2}>
+              Market
+            </Col>
+            <Col md={2}>
+              Cashflow
+            </Col>
+            <Col md={2}>
+              Credit
+            </Col>
+            <Col md={2}>
+              Operational
+            </Col>
+            <Col md={2}>
+              Legal
+            </Col>
+          </Row>
+
+        <Row>
+        {this.state.responses.map(question =>
+          <Col md={6}>
             <Question 
               question={question.question} 
               id={question.id}
               options={question.options}
               handleResponseChange={this.handleResponseChange}
             />
+          </Col>
         )}
+        </Row>
+
+        </Grid>
 
         <h1>Score: {this.state.score} / {this.state.total}</h1>
       </div>

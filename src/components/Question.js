@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './../styles/Question.css';
 import { FormGroup, FormControl } from 'react-bootstrap';
 
 class Question extends Component {
@@ -14,7 +15,7 @@ class Question extends Component {
 
     render() {
         return (
-            <div>
+            <div className="Question">
                 <h2>{this.state.question}</h2>
                 <FormGroup controlId="formControlsSelect">
                     <FormControl 
