@@ -79,22 +79,23 @@ class App extends Component {
             </Col>
           </Row>
 
-        <Row>
-        {this.state.responses.map(question =>
-          <Col md={6}>
-            <Question 
-              question={question.question} 
-              id={question.id}
-              options={question.options}
-              handleResponseChange={this.handleResponseChange}
-            />
-          </Col>
-        )}
-        </Row>
-
+          <Row>
+            {this.state.responses.map(question =>
+              <Col md={6}>
+                <Question 
+                  question={question.question} 
+                  id={question.id}
+                  options={question.options}
+                  handleResponseChange={this.handleResponseChange}
+                />
+              </Col>
+            )}
+          </Row>
         </Grid>
 
-        <h1>Score: {this.state.score} / {this.state.total}</h1>
+        <footer>
+          <h1>Score: {this.state.score} / {this.state.total}</h1>
+        </footer>
       </div>
     );
   }

@@ -1,3 +1,10 @@
 .App {
   text-align: center;
 }
+
+footer {
+  background-color: #e9ecef;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
